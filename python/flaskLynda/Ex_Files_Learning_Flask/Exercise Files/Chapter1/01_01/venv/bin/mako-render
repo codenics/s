@@ -1,0 +1,12 @@
+#!/bin/sh
+'''exec' "/Users/codenics/Documents/PROGRAMING/selfStudy/python/flaskLynda/Ex_Files_Learning_Flask/Exercise Files/Chapter1/01_01/venv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from mako.cmd import cmdline
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(cmdline())
