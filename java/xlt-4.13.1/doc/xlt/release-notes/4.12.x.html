@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>4.12.x</title>
+  <meta name="description" content="Xceptance LoadTest - XLT, Documentation, Manual, Howto, FAQ">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,400italic,300italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,300,400,500,700" rel="stylesheet" type="text/css">
+
+  <link href="../css/font-awesome.min.css" rel="stylesheet" media="all"  type="text/css" />
+  <link href="../css/lightbox.css" rel="stylesheet" media="all"  type="text/css" />
+
+  <link href="../css/highlightjs/default.css" rel="stylesheet" type="text/css" />
+  <link href="../css/highlightjs/mono-blue.css" rel="stylesheet" type="text/css" />
+
+  <link href="../css/xltdoc.css" rel="stylesheet" media="all"  type="text/css" />
+
+  <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/toc.min.js"></script>
+  <script type="text/javascript" src="../js/lightbox.min.js"></script>
+  <script type="text/javascript" src="../js/headroom.min.js"></script>
+
+  <!-- <script type="text/javascript" src="../js/jquery.scrollIntoView.min.js"></script -->
+  <script type="text/javascript" src="../js/xltdoc.js"></script>
+
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+</head>
+
+
+<body data-spy="scroll" data-target="#toc" data-offset="100" class="layout-manual ">
+
+    
+
+
+<!-- Fixed navbar -->
+<nav id="header" class="navbar navbar-default">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="site-title" href="../index.html">
+            <img src="../img/XLTDoc-logo-transparent-165x82.png" id="product-logo" alt="XLT Product logo" title="Xceptance LoadTest"/>
+        </a>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div id="navbar" class="navbar-collapse collapse">
+        <!-- Links to external pages -->
+        <ul id="navbar-right" class="nav navbar-nav navbar-right navbar-text">
+	<li>
+		<a href="https://lab.xceptance.de/releases/xlt/latest/apidoc/" target="_blank" title="XLT API Documentation">
+			<i class="fa fa-external-link"></i>API</a>
+	</li>
+
+    <li>
+ 		<a href="https://ask.xceptance.de/" target="_blank" title="XLT Community Forum">
+ 			<i class="fa fa-external-link"></i>Forum</a>
+ 	</li> 
+    
+	<li>
+		<a href="https://www.xceptance.com/xlt/" target="_blank" title="XLT Website">
+			<i class="fa fa-external-link"></i>XLT Home</a>		
+	</li>			
+</ul>
+
+
+        <ul id="navbar-left" class="nav navbar-nav navbar-text">
+            <li class="inactive"><a href="../getting-started/index.html">Getting Started</a></li>
+            <li class="inactive"><a href="../user-manual/index.html">User Manual</a></li>
+            <li class="inactive"><a href="../how-to/index.html">How-To</a></li>
+            <li class="active"><a href="../release-notes/index.html">Release Notes</a></li>
+            <li class="inactive"><a href="../license.html">License</a></li>
+        </ul>
+
+    </div><!--/.nav-collapse -->
+
+</nav>
+
+
+
+
+<div id="breadcrumb" class="navbar navbar-default">
+  <div>
+    <ol class="breadcrumb">
+      
+
+      
+        <li><a href="../index.html"><i class="fa fa-home"></i>Docs</a></li>
+          
+            
+            <li><a href="../release-notes/index.html">Release Notes</a></li>
+          
+      
+
+      <li class="active">4.12.x</li>
+    </ol>
+  </div>
+</div>
+
+
+    
+<div id="main" class="main container-fluid">
+    <div class="row">
+        <div class="hidden-xs col-sm-4 col-md-3 sidenav-col">
+            <nav id="sidenav" class="sidenav nav">
+                <!-- TOC of all available files/pages in folder  -->
+                <ul class="nav sidenav">
+                
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/4.13.x.html">4.13.x</a>
+                
+            </li>
+        
+    
+
+    
+        
+            
+                <!-- Table of content from page headings for the currently loaded file-->
+                <li class="current-page">
+                    <a class="current-page" href="">4.12.x</a>
+                    <!-- Container for page headings TOC -->
+                    <div id="toc" class="sidenav"></div>
+                </li>
+            
+        
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/4.11.x.html">4.11.x</a>
+                
+            </li>
+        
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/4.10.x.html">4.10.x</a>
+                
+            </li>
+        
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/4.9.x.html">4.9.x</a>
+                
+            </li>
+        
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/4.8.x.html">4.8.x</a>
+                
+            </li>
+        
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/4.7.x.html">4.7.x</a>
+                
+            </li>
+        
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/4.6.x.html">4.6.x</a>
+                
+            </li>
+        
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/4.5.x.html">4.5.x</a>
+                
+            </li>
+        
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/4.4.x.html">4.4.x</a>
+                
+            </li>
+        
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/4.3.x.html">4.3.x</a>
+                
+            </li>
+        
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/4.2.x.html">4.2.x</a>
+                
+            </li>
+        
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/4.1.x.html">4.1.x</a>
+                
+            </li>
+        
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/4.0.x.html">4.0.x</a>
+                
+            </li>
+        
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/3.3.x.html">3.3.x</a>
+                
+            </li>
+        
+    
+
+    
+        
+            <li>
+            
+                <a href="../release-notes/3.2.x.html">3.2.x</a>
+                
+            </li>
+        
+    
+
+
+                </ul>
+            </nav>
+        </div>
+
+        <div id="content" class="col-xs-12 col-sm-8 col-md-9 content-col">
+            <h2><span class="caps">XLT</span> 4.12.3</h2>
+<h3>Load Testing</h3>
+<h4>ClassNotFoundException with <span class="caps">JRE</span> 9+ when creating report with external data (#3490)</h4>
+<p>When creating a load test report, data from external sources may be included. This works fine with <span class="caps">JRE</span> 8, but not with later JREs as certain Java EE libraries have been removed from the standard <span class="caps">JRE</span> package, starting with <span class="caps">JRE</span> 9. Now <span class="caps">XLT</span> comes bundled with the needed libraries.</p>
+<h3>Test Framework</h3>
+<h4>Support whitespace in browser command line arguments (#2998)</h4>
+<p><span class="caps">XLT</span> can manage the life cycle of web drivers and web browsers on your behalf, but you may configure many aspects in the settings of your test suite. This is also true for the list of command line arguments that need to be passed to the underlying browser. So far, command line arguments were not permitted to contain whitespace. However, for some browser options this is essential, for instance Chrome&#8217;s <code>--user-agent</code> option. Now, any browser command line argument parameter may contain whitespace if the entire argument is quoted properly using either single or double quotes:</p>
+<pre class="ini"><code class="ini">xlt.webDriver.chrome.browserArgs = --headless "--user-agent=Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"</code></pre>
+<h4>Custom default Accept-Language header will be ignored (#3408)</h4>
+<p>When using HtmlUnit as the browser, it is possible to programmatically configure default request headers at a <code>WebClient</code> instance. These headers will then be sent automatically with each and every request. However, this did not work for the <code>Accept-Language</code> header. Fixed now.</p>
+<h4>Page load timings with value 0 in timers.csv (#3561)</h4>
+<p><span class="caps">XLT</span> is able to record the browser event timings of Chrome and Firefox. As any other measurements, these values are stored to the corresponding <code>timers.csv</code> file. However, if a certain browser event did not occur, for instance because of a timeout, then the file nevertheless contained a record for that event, but with the value 0. Now a record is written only if the event did occur at all.</p>
+<h4>Make Xvfb screen size configurable (#3378)</h4>
+<p><span class="caps">XLT</span> supports running real browsers in screenless mode with the help of Xvfb. By default, <span class="caps">XLT</span> runs Xvfb with a display size of 1600&#215;1200 and a color depth of 24 bits. You may now reconfigure these settings as follows:</p>
+<pre class="ini"><code class="ini">xlt.clientperformance.xvfb.screen = 1920x1080x24</code></pre>
+<h4>Security updates for 3rd-party libraries (#3481)</h4>
+<p>Some 3rd-party libraries have been updated to latest available version that include fixes for certain security vulnerabilities.</p>
+<h2><span class="caps">XLT</span> 4.12.2</h2>
+<h3>Test Framework</h3>
+<h4><span class="caps">JSON</span> viewer in result browser (#3316)</h4>
+<p>When having to deal with huge <span class="caps">JSON</span> responses a lot, a more structured view with expandable/collapsible sections would be helpful. That&#8217;s why the result browser now features a new tab where <span class="caps">JSON</span> responses are displayed in a tree-like view that can also be searched and filtered.</p>
+<h4>Retry failed requests if the root cause indicates a temporary issue (#3340)</h4>
+<p>If a request has failed, <span class="caps">XLT</span> may automatically retry that request, provided that the error indicates a temporary issue. For instance, requests will be retried for a <code>SocketException</code> (temporary network issue), but not for an <code>SSLProtocolException</code> (issue looks permanent). However, if the <em>root cause</em> of an issue classified as permanent is itself temporary, there is no reason not to retry the request in this situation. The retry mechanism has been changed this way.</p>
+<h4>Log event when a request is retried (#3344)</h4>
+<p>When failed requests are automatically retried, this happens under the hood and unnoticed by the user. However, it would be good to know if such retries happen sporadically only or rather frequently. To get some insights, an event with some basic info will now be logged when a request is about to be retried.</p>
+<h4>Update Jetty (#3341)</h4>
+<p>Jetty has been updated to the latest available version 9.4.14.</p>
+<h3>Load Testing</h3>
+<h4><span class="caps">AWS</span> images with OpenJDK 11</h4>
+<p>Xceptance provides public <span class="caps">AWS</span> machine images with a preconfigured and ready-to-run <span class="caps">XLT</span>. The <span class="caps">JDK</span> that is installed in these images has been updated from OracleJDK 8 to OpenJDK 11.</p>
+<h2><span class="caps">XLT</span> 4.12.1</h2>
+<h3>Test Framework</h3>
+<h4>Invalid timestamp in request records (#3285)</h4>
+<p>Sometimes our timer recorder extensions for Chrome and Firefox reported invalid request entries that could not be processed by the report generator. This could happen for requests that did not complete (according to WebExtension&#8217;s webRequest <span class="caps">API</span>) when the browser navigated away to a new page. Fixed now.</p>
+<h4>Transaction failures in the results when catching exceptions (#3314)</h4>
+<p>Sometimes test designers deliberately catch exceptions or assertion errors in order to continue with an alternative branch in the test case. This is a valid approach and worked well in previous versions of <span class="caps">XLT</span>. If the test case completes successfully after catching an exception, it should also be counted as successful in the results. However, since 4.11.0 the transaction may<sup class="footnote" id="fnr1"><a href="#fn1">1</a></sup> nevertheless be marked as failed in the recorded timer data (<code>timers.csv</code>). As a consequence, when creating a load test report from that data, it will list transaction &#8220;failures&#8221; that could actually not be observed. Now, transactions are marked as failed in <code>timers.csv</code> only if the transaction really finished with an exception.</p>
+<p class="footnote" id="fn1"><a href="#fnr1"><sup>1</sup></a> In case the action that threw the exception happens to be the last action in the test case.</p>
+<h4>Upgrade to latest WebDriver (#3266)</h4>
+<p>Selenium has been updated to the latest version 3.141.59 and HtmlUnitDriver to version 2.33.3.</p>
+<h3>Load Testing</h3>
+<h4>Support new <span class="caps">AWS</span> data center in Stockholm (#3307)</h4>
+<p>Recently, Amazon opened a new data center in Stockholm, Sweden (eu-north-1). This data center is fully supported in <code>ec2_admin</code> now.</p>
+<h2><span class="caps">XLT</span> 4.12.0</h2>
+<h3>Test Framework</h3>
+<h4>Request/response ID improvements</h4>
+<p>Outbound request IDs and inbound response IDs are really helpful when debugging issues with your Web servers or CDNs. They allow to correlate requests and responses on both ends of the communication channel. <span class="caps">XLT</span> comes with some enhancements in this area.</p>
+<p><strong>Request ID as part of the User-Agent header</strong> &#8211; By default, <span class="caps">XLT</span> sends the request ID as a custom <span class="caps">HTTP</span> header. However, many systems are not able to log request headers other than the <code>User-Agent</code> header. Hence, <span class="caps">XLT</span> may now send the request ID also as part of the <code>User-Agent</code> header. This works for the default user agent string and also a customized one.</p>
+<p>But note that an ever-changing <code>User-Agent</code> value is unusual and might therefore cause unexpected issues in certain systems. So before you use this feature, make sure the other system can handle it. Then use the following new setting to enable this feature:</p>
+<pre class="ini"><code class="ini">com.xceptance.xlt.http.requestId.appendToUserAgent = true</code></pre>
+<p><strong>Support different header names for request and response IDs</strong> &#8211; So far, you could only specify a single header name that was used for both, the outgoing request ID and the incoming response ID. For more flexibility, you may now specify different header names as follows:</p>
+<pre class="ini"><code class="ini">com.xceptance.xlt.http.requestId.enabled = true
+com.xceptance.xlt.http.requestId.headerName = X-XLT-RequestId
+com.xceptance.xlt.http.responseId.enabled = true
+com.xceptance.xlt.http.responseId.headerName = CF-RAY</code></pre>
+<p><strong>Record outgoing and incoming ID separately</strong> &#8211; Previously, <span class="caps">XLT</span> recorded only one ID to <code>timers.csv</code>. This was either the one from the response or &#8211; if no ID was present there &#8211; the one from the request. Since the response ID is often different from XLT&#8217;s request ID, you actually need both IDs for the full picture. That&#8217;s why <span class="caps">XLT</span> now stores request and response ID separately to the <code>timers.csv</code> files.</p>
+<h4>Enhancements around host name/address resolution</h4>
+<p>Sometimes a host name does not have a single permanent IP address entry in <span class="caps">DNS</span>, but either it has multiple IP addresses assigned or its single IP address is changed every couple of seconds. Both approaches are typical for CDNs which try to load-balance traffic to different servers this way. These non-standard <span class="caps">DNS</span> scenarios also impose new challenges, especially when load testing or when it comes to debugging certain network phenomena. <span class="caps">XLT</span> has now something in the box to address these challenges.</p>
+<p><strong>Better load distribution when load-testing sites behind a <span class="caps">CDN</span></strong> &#8211; Address resolution in Java is not perfect in the context of load-testing sites that are using <span class="caps">DNS</span> load-balancing tricks:</p>
+<ol>
+	<li>Java&#8217;s address resolution cache is global to the <span class="caps">JVM</span>. When an entry expires, it expires for all virtual users in this <span class="caps">JVM</span> at the same time. As a consequence, if the IP address has changed in <span class="caps">DNS</span> in the meantime, all traffic generated by this <span class="caps">JVM</span> hops from the current server to another one almost immediately.</li>
+	<li>Java does not perform an automatic round-robin for multiple IP addresses. Java caches the IP addresses in the order received and returns them in the same order for the lifetime of the cache entry. This way, the first IP address will typically get all the traffic.</li>
+</ol>
+<p><span class="caps">XLT</span> comes with some enhancements to improve the load distribution. To tackle the first issue, <span class="caps">XLT</span> can maintain a separate address resolution cache for each virtual user. This cache is valid for the lifetime of a virtual user&#8217;s session (i.e. one iteration). This somewhat softens the transition to the new IP address a bit, as the current session is still using the old IP address. <span class="caps">XLT</span> fixes the second issue by automatically shuffling the IP addresses so all IPs will be utilized equally.</p>
+<p>Enable these features by setting the following properties as needed:</p>
+<pre class="ini"><code class="ini">xlt.dns.cacheAddresses = true
+xlt.dns.shuffleAddresses = true</code></pre>
+<p><strong>Record the resolved IP address for each request</strong> &#8211; In case the <span class="caps">DNS</span> entry for a certain host name is changed frequently and you experience sporadic request issues, it might be interesting to know which server was responsible for that very request. That&#8217;s why <span class="caps">XLT</span> may record the IP (or multiple IPs) returned by the <span class="caps">DNS</span> server for that request. To enable this feature, set the following property in the test suite configuration:</p>
+<pre class="ini"><code class="ini">xlt.dns.recordAddresses = true</code></pre>
+<p>The recorded IP address(es) will be available in the <code>timers.csv</code> files as a new field whose value is a <code>|</code>-separated list.</p>
+<p><strong>Use only one IP address for a request even if there are more</strong> &#8211; In case a host name is resolved to more than one IP address, the underlying <em>HttpClient</em> will try one IP after the other until a connection could be established. This is a silent process, and we will notice issues here if and only if none of the given IPs could be contacted, because only then will we see exceptions bubbling up. This might lead to inexplicable results, especially when total request runtime and socket timings do not match.</p>
+<p>If you suspect issues with one of the servers, but these issues are masked by the silent fail-over to another server, you can now debug this much better. Set the following property and <span class="caps">XLT</span> will randomly pick a single IP address from the list of available addresses:</p>
+<pre class="ini"><code class="ini">xlt.dns.pickOneAddressRandomly = true</code></pre>
+<p>If the server with the chosen IP address has issues, you will spot them immediately. And, when you combine this property with <code>xlt.dns.recordAddresses=true</code>, you will immediately know which IP/server instance is the offending one.</p>
+<h4>Other Improvements</h4>
+<p><strong>Automatic request retry</strong> &#8211; If a request has failed, <span class="caps">XLT</span> may automatically retry that request, provided that the error indicates a temporary issue. Previously, the retry feature was always effective for idempotent requests (i.e. <em><span class="caps">GET</span></em>, <em><span class="caps">PUT</span></em> and <em><span class="caps">DELETE</span></em>) and could optionally be enabled for non-idempotent requests (i.e. <em><span class="caps">POST</span></em> and <em><span class="caps">PATCH</span></em>). Now, this feature can be enabled or disabled altogether, and you may also tune the retry count:</p>
+<pre class="ini"><code class="ini">com.xceptance.xlt.http.retry.enabled = true
+com.xceptance.xlt.http.retry.nonIdempotentRequests = true
+com.xceptance.xlt.http.retry.count = 3</code></pre>
+<p><strong>Requests ordered by start time in result browser</strong> &#8211; The requests of an action are now always ordered by their start time. This removes a discrepancy between the result browsers generated for <em>HtmlUnit</em>-based tests and client-performance tests with real browsers.</p>
+<p><strong>Chaining of actions of different types</strong> &#8211; Starting with <span class="caps">XLT</span> 4.12.0, it is possible to mix and match Web actions of different types in a test case, for instance <code>AbstractHtmlPageAction</code> with <code>AbstractLightWeightPageAction</code>. This allows to use the most appropriate action for the job, and you can share a common <code>WebClient</code> instance &#8211; as you are used to &#8211; also between actions of different types. To make this possible, the constructors of those action classes now take an instance of <code>AbstractWebAction</code> as the previous action instead of an action of the same class.</p>
+<blockquote class="note">
+<p class="note">Make sure you have read the section <em>Incompatible Changes</em> below.</p>
+</blockquote>
+<p><strong>Selenium updated</strong> &#8211; Selenium has been updated to latest available version 3.14.0. Make sure you also update the driver binaries for all the browsers you want to use in your test cases. See below for a list of links to download the driver binary for your browser:</p>
+<ul>
+	<li>Chrome/Chromium: <a href="http://chromedriver.storage.googleapis.com/index.html">chromedriver</a></li>
+	<li>Edge: <a href="https://go.microsoft.com/fwlink/?linkid=619687">MicrosoftWebDriver.exe</a></li>
+	<li>Firefox: <a href="https://github.com/mozilla/geckodriver/releases">geckodriver</a></li>
+	<li>Internet Explorer: <a href="http://selenium-release.storage.googleapis.com/index.html">IEDriverServer.exe</a></li>
+	<li>Opera: <a href="https://github.com/operasoftware/operachromiumdriver/releases">operadriver</a></li>
+	<li>PhantomJS: <a href="http://phantomjs.org/download.html">phantomjs</a></li>
+</ul>
+<p><strong>HtmlUnit updated</strong> &#8211; HtmlUnit has been updated as well, namely to version 2.33.0.</p>
+<h4>Incompatible Changes</h4>
+<p><strong>Client-performance driver builders</strong> &#8211; Our client-performance Web drivers <code>XltChromeDriver</code> and <code>XltFirefoxDriver</code> used to have a method <code>builder()</code> in order to return an instance builder object. Since Selenium recently added a method with the same name to their drivers, we had to rename our methods to <code>xltBuilder()</code> to avoid the name clash.</p>
+<p><strong>Abstract&#8230;PageAction</strong> &#8211; In order to allow chaining of actions of different types, we changed the constructors of <code>AbstractHtmlPageAction</code> and <code>AbstractLightWeightPageAction</code> to take instances of class <code>AbstractWebAction</code> as the previous action. Although this change is source code compatible, you will need to recompile your code once you have upgraded to <span class="caps">XLT</span> 4.12.0. Typically, this happens automatically for regular test suites. But in case you have created a library or framework on top of <span class="caps">XLT</span>, you will need to rebuild it and release a new version of it.</p>
+<h3>Load Testing</h3>
+<h4>Load Test Report Generator</h4>
+<p><strong>Report generator much faster</strong> &#8211; Due to various improvements and optimizations, the report generator is much faster now, especially when reading and processing <code>timers.csv</code> files.</p>
+<p><strong>Request processing rule improvements</strong> &#8211; When renaming requests via request processing rules (aka request merge rules), the new name of the request typically contains placeholders, such as <code>{n:0}</code>, that should be substituted with (parts of) a certain request attribute. These placeholders have got a new syntax variant: <code>{x}</code>, with <em>x</em> being one of the usual type codes (<code>a</code>, <code>c</code>, <code>n</code>, <code>r</code>, <code>s</code>, <code>t</code> and <code>u</code>). This placeholder stands for the <em>full text</em> of the respective request attribute and is always available, without having to specify a corresponding regular expression to extract the text. This greatly simplifies the definition of request processing rules where the entire request attribute (and not only parts of it) is to be inserted into the new name.</p>
+<pre class="ini"><code class="ini"># old style
+com.xceptance.xlt.reportgenerator.requestMergeRules.30.newName = {n:0} JS
+com.xceptance.xlt.reportgenerator.requestMergeRules.30.namePattern = .*
+com.xceptance.xlt.reportgenerator.requestMergeRules.30.urlPattern = \\.js$</code>
+
+<code class="ini"># new style
+com.xceptance.xlt.reportgenerator.requestMergeRules.30.newName = {n} JS
+com.xceptance.xlt.reportgenerator.requestMergeRules.30.urlPattern = \\.js$</code></pre>
+<p>This new placeholder syntax is especially useful for inserting the request name built so far (after processing the preceding rules), but might come in handy for the other attributes as well.</p>
+<p><strong>Faster request name cleaning</strong> &#8211; Request names usually carry an index, such as &#8220;FooBar.1&#8221; or &#8220;FooBar.1.27&#8221;. During report generation, the index part is typically cut off from the name. Previously, this happened via a special request processing rule that had to be explicitly specified. This rule is not necessary any longer as it became a built-in feature of <span class="caps">XLT</span>, speeding up report generation.</p>
+<p>First, check your code to assure that your request/action names don&#8217;t contain a period character. Then, check the stripping rule. If it has no other effect besides stripping off the indexes, you can simply delete it. Otherwise, you would need to move the extra functionality to another rule. Finally, enable the automatic index stripping feature by setting this property:</p>
+<pre class="ini"><code class="ini">com.xceptance.xlt.reportgenerator.requests.removeIndexes = true</code></pre>
+<p>You may set this property either in <code>&lt;xlt&gt;/config/reportgenerator.properties</code> so that it becomes effective for all your test suites, or specifically for a test suite in one of its configuration files, for example in <code>&lt;testsuite&gt;/config/project.properties</code>.</p>
+<h4>Load Test Report</h4>
+<p><strong>Page load timings on a separate tab</strong> &#8211; When using <code>XltChromeDriver</code> or <code>XltFirefoxDriver</code>, <span class="caps">XLT</span> collects page load timings obtained from the underlying browsers. Previously, they were shown in the <em>Custom Timers</em> section of the load test report. From now on, you will find these values in the new <em>Page Load Timings</em> section. This brings more clarity for both, the page load timings and your regular custom timers.</p>
+<p>In this course, we introduced the new type code <code>P</code> for page load timing entries in the <code>timers.csv</code> files. Please keep this in mind when analyzing raw result data with tools like <code>awk</code>, <code>grep</code>, etc.</p>
+<p><strong>Ignore the hash when calculating the number of distinct URLs</strong> &#8211; When hovering over the name of a request in the data table of the load test report, a tooltip is shown that lists 10 exemplary URLs and the total number of distinct URLs. Since the fragment/hash is a client thing that won&#8217;t be transmitted to the server anyway, the calculation of the number of distinct URLs has been changed to simply ignore the fragment part of a given <span class="caps">URL</span>.</p>
+<h4>ec2_admin</h4>
+<p><strong>Support new instance types</strong> &#8211; Our command line tool <code>ec2_admin</code> now supports also instance types of the 5th generation, in particular <em>c5</em>, <em>r5</em>, and <em>m5</em>.</p>
+<h3>Supported Java Versions</h3>
+<p>The <span class="caps">XLT</span> framework and also the load testing tools have been made compatible with Java 11. For the time being, we support both Java 8 and 11 as runtime environments for <span class="caps">XLT</span>.</p>
+            <div id="footer">
+	<p>Copyright © 2019 by <a href="http://www.xceptance.com/">Xceptance Software Technologies</a>. All rights reserved.</p>
+</div>
+
+
+        </div>
+    </div>
+</div>
+
+<!-- Generate the part of the TOC that contains the headings of the currently displayed page -->
+<!-- createToc (selectedHeadlines, classesTarget, classes )-->
+
+<script>createToc('h1,h2,h3', '#toc > ul', '#sidenav nav sidenav')</script>
+
+
+</body>
+
+</html>
