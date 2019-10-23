@@ -8,6 +8,7 @@ Created on Tue Oct 22 15:29:27 2019
 
 import numpy as np
 import scipy.ndimage as ndimg
+import scipy.signal as sp
 import NanoImagingPack as nip
 
 #Exercise 1, Task 1
@@ -28,13 +29,22 @@ def CosmicRaySim(anImage, NumShots=500, ShotValue=255):
     dirtyImg = np.reshape(dirtyImg, anImage.shape)
     return dirtyImg
 
-
+#Exercise 1, Task 2
 anImage = nip.readim()
 dirtyImg = CosmicRaySim(anImage)
 nip.v5(dirtyImg)
+
+#Exercise 1, Task 3
+def RemoveHotPixels(anImage, threshValue = 200, kernelSize = 3):
+    hotFreeImage = anImage.copy()
+    mymask = hotFreeImage > threshValue
+    filtered = sp.medfilt(hotFreeImage, kernelSize)
+    hotFreeImage[mymask] = filtered[mymask]
     
+    return hotFreeImage
 
-
+#Exercise 1, Task 4
+nip.v5(nip.catE(dirtyImg, RemoveHotPixels(dirtyImg), anImage))
 
 
 
