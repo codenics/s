@@ -1,1 +1,2 @@
 tifffile
+scikit-tensor-py3
