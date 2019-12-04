@@ -1,2 +1,0 @@
-[2019/11/07-10:16:04.943] ERROR [main] com.avaje.ebean.config.PropertyMapLoader - ebean.properties not found
-[2019/11/07-10:16:05.562] WARN  [main] net.sf.ehcache.config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/private/var/folders/74/w2vy4kc57yq2zmp077hdjns80000gn/T/jetty-0.0.0.0-8080-posters.war-_posters-any-6349661534243854469.dir/webapp/WEB-INF/lib/ehcache-2.8.0.jar!/ehcache-failsafe.xml
