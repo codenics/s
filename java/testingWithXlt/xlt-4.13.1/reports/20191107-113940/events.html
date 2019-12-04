@@ -1,0 +1,180 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>XLT Report - Events</title>
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<link media="print" rel="stylesheet" type="text/css" href="css/print.css">
+<link rel="stylesheet" type="text/css" href="css/superfish.custom.css">
+<script type="text/javascript" src="js/jquery-3.1.0.min.js">/* Placeholder */</script><script type="text/javascript" src="js/jquery.hoverIntent-1.8.0.min.js">/* Placeholder */</script><script type="text/javascript" src="js/jquery.scrollTo-2.1.3.min.js">/* Placeholder */</script><script type="text/javascript" src="js/jquery.superfish-1.7.4.js">/* Placeholder */</script><script type="text/javascript" src="js/tabs.js">/* Placeholder */</script><script src="js/table.js" type="text/javascript">/* Placeholder */</script>
+</head>
+<body id="loadtestreport">
+<div id="container">
+<div id="content">
+	
+
+		<div id="navigation">
+			<ul id="superfish" class="sf-menu">
+				<li><a href="index.html">Overview</a>
+					<ul>
+						<li><a href="index.html#load-profile">Load Profile</a></li>
+						<li><a href="index.html#comment">Test Comment</a></li>
+						<li><a href="index.html#general">General Information</a></li>
+                        <li><a href="index.html#summary">Performance Summary</a></li>
+						<li><a href="index.html#network">Network</a></li>
+					</ul>
+				</li>
+				<li><a href="transactions.html">Transactions</a></li>
+				<li><a href="actions.html">Actions</a></li>
+				<li><a href="requests.html">Requests</a></li>
+                <li><a href="network.html">Network</a>
+                    <ul>
+                        <li><a href="network.html#network">Network</a></li>
+                        <li><a href="network.html#hosts">Hosts</a></li>
+                        <li><a href="network.html#http-response-codes">HTTP Response Codes</a></li>
+                        <li><a href="network.html#content-types">Content Types</a></li>
+                    </ul>
+                </li>
+				<li><a href="page-load-timings.html">Page Load Timings</a></li>
+                <li><a href="custom-timers.html">Custom Timers</a></li>
+                <li><a href="custom-values.html">Custom Values</a></li>
+				<li><a href="external.html">External Data</a></li>
+				<li><a href="errors.html">Errors</a>
+					<ul>
+						<li><a href="errors.html#request-errors">Request Errors</a></li>
+                        <li><a href="errors.html#transaction-error-overview">Transaction Error Overview</a></li>
+						<li><a href="errors.html#transaction-error-details">Transaction Error Details</a></li>
+					</ul>
+				</li>
+                <li><a href="events.html">Events</a>
+                    <ul>
+                        <li><a href="events.html#event-overview">Overview</a></li>
+                        <li><a href="events.html#event-details">Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="agents.html">Agents</a></li>
+				<li><a href="configuration.html">Configuration</a>
+					<ul>
+						<li><a href="configuration.html#load-profile">Load Profile</a></li>	
+						<li><a href="configuration.html#configuration">Settings</a></li>
+					</ul>
+				</li>	
+			</ul>
+		</div>
+		
+	<div id="header">
+<img alt="The company logo" class="logo" src="images/logo.png"><h1>Performance Test Report</h1>
+<h2>
+                Created with
+                <a href="http://www.xceptance-loadtest.com/?piwik_campaign=TestReport"><span class="productname">Xceptance LoadTest</span><span class="productversion">4.13.1</span></a>
+</h2>
+</div>
+<div id="data-content">
+<div id="event-summary" class="section">
+<h2>Events</h2>
+<div class="content">
+<div class="description">
+<p>
+                The tables below show all events that occurred during the load test. Events are used to indicate that the test
+                has encountered a situation that is not an error but too important to ignore or to write to the log only.
+                <span class="link more-show" onclick="$('#more-eventsN10001').show();$('#more-eventsN10001-hide').show(); $(this).hide();" id="more-eventsN10001-show">More...</span><span class="link more-hide" onclick="$('#more-eventsN10001').hide();$('#more-eventsN10001-show').show(); $(this).hide();" id="more-eventsN10001-hide">Hide...</span>
+</p>
+<div class="more" id="more-eventsN10001">
+<p>
+                    Events are soft errors or warnings that don't interrupt the flow of testing. Request-level errors also log an
+                    event because it depends on the test configuration if they turn into a hard failure as well.
+                </p>
+<p>
+                    You can use the XLT API and create your own events to learn about certain conditions, such as an unavailable
+                    product that doesn't cause the test to stop but that needs your attention. A few out-of-stock products may
+                    be okay while too many of them could affect the test behavior.
+                </p>
+<p>
+                    The Overview section below lists all events and their respective count in general. The Details section
+                    beneath lists and counts all events grouped by test case name, event name, and the particular event message
+                    (URLs, for example).
+                </p>
+</div>
+</div>
+<div class="data">
+<div class="charts">
+<div class="chart">
+<img alt="Events" src="charts/Events.png"></div>
+</div>
+<h3 id="event-overview">Overview</h3>
+<table class="table-autosort:1 table-autosort-order:desc table-autostripe table-stripeclass:odd">
+<thead>
+<tr>
+<th class="table-sortable:alphanumeric">Event</th><th class="table-sortable:numeric">Count</th><th class="table-sortable:numeric">Percentage</th>
+</tr>
+</thead>
+<tfoot>
+<tr class="totals">
+<td class="key">Totals (2 entries)</td><td class="value number">275</td><td class="value number">100.0%</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td class="value text forcewordbreak">Failed to download resource</td><td class="value number count">127</td><td class="value number count">46.2%</td>
+</tr>
+<tr>
+<td class="value text forcewordbreak">Request retried (attempt #1)</td><td class="value number count">148</td><td class="value number count">53.8%</td>
+</tr>
+</tbody>
+</table>
+<h3 id="event-details">Details</h3>
+<table>
+<thead>
+<tr>
+<th rowspan="2">Test Case</th><th rowspan="2">Event</th><th rowspan="2">Total Count</th><th colspan="2">Event Information</th>
+</tr>
+<tr>
+<th>Count</th><th>Message</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td></td><td></td><td></td><td></td><td></td>
+</tr>
+</tfoot>
+<tbody>
+<tr class="even">
+<td class="value text" rowspan="1">TOrder</td><td class="value text" rowspan="1">Request retried (attempt #1)</td><td class="value number" rowspan="1">148</td><td class="value number">148</td><td class="value text forcewordbreak">Host: localhost, Reason: java.net.SocketException: Socket input is already shutdown</td>
+</tr>
+<tr class="odd">
+<td class="value text" rowspan="8">TOrder</td><td class="value text" rowspan="8">Failed to download resource</td><td class="value number" rowspan="8">127</td><td class="value number">39</td><td class="value text forcewordbreak">[0] https://localhost:8443/posters/assets/js/bootstrap-paginator.min.js</td>
+</tr>
+<tr class="odd">
+<td class="value number">33</td><td class="value text forcewordbreak">[0] https://localhost:8443/posters/assets/ico/favicon.ico</td>
+</tr>
+<tr class="odd">
+<td class="value number">29</td><td class="value text forcewordbreak">[0] https://localhost:8443/posters/assets/img/products/Flora_and_Fauna/Animals/Animals_1.jpg</td>
+</tr>
+<tr class="odd">
+<td class="value number">11</td><td class="value text forcewordbreak">[0] https://localhost:8443/posters/assets/js/posterMiniCart.js</td>
+</tr>
+<tr class="odd">
+<td class="value number">7</td><td class="value text forcewordbreak">[0] https://localhost:8443/posters/assets/img/products/Means_of_Transportation/Railways/Railways_7.jpg</td>
+</tr>
+<tr class="odd">
+<td class="value number">5</td><td class="value text forcewordbreak">[0] https://localhost:8443/posters/assets/css/bootstrap.min.css</td>
+</tr>
+<tr class="odd">
+<td class="value number">2</td><td class="value text forcewordbreak">[0] https://localhost:8443/posters/assets/img/products/XXL/XXL_3.jpg</td>
+</tr>
+<tr class="odd">
+<td class="value number">1</td><td class="value text forcewordbreak">[0] https://localhost:8443/posters/assets/js/poster.js</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+        Copyright (c) 2005-2019 <a title="Visit the Xceptance website" href="http://www.xceptance.com/">Xceptance Software Technologies</a>
+</div>
+</div>
+</div>
+<script src="js/xlt.js" type="text/javascript"></script>
+</body>
+</html>

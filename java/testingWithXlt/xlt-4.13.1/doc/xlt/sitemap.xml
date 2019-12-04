@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  
+ 
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/user-manual/01-intro.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/getting-started/01-test-automation.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/user-manual/02-install.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/getting-started/02-performance-testing.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/user-manual/03-scriptdeveloper.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/user-manual/04-framework.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/user-manual/05-framework-config.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/user-manual/06-datadriven.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/user-manual/07-posters.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/user-manual/08-loadtest.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/user-manual/09-reports.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/user-manual/10-command-reference.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/user-manual/11-glossary.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/3.2.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/3.3.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/4.0.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/4.1.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/4.10.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/4.11.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/4.12.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/4.13.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/4.2.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/4.3.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/4.4.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/4.5.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/4.6.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/4.7.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/4.8.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/4.9.x.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/how-to/basic-rules-for-test-suite.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/how-to/choosing-a-test-approach.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/how-to/criteria-validation-tool.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/how-to/from-scriptdeveloper-to-java.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/how-to/graphite.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/how-to/how-to-result-browser.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/how-to/how-to-structure-test-suites.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/how-to/importing-XLT-projects-into-eclipse.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/getting-started/</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/release-notes/</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/user-manual/</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/how-to/</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/how-to/integrating-XLT-with-Maven-and-Ivy.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/how-to/jenkins-plugin.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/license.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/how-to/properties-include-concept.html</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/sitemap.xml</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+  <url>
+    <loc>https://lab.xceptance.de/releases/xlt/latest/css/xltdoc.css</loc>
+    <lastmod>2019-08-20T10:54:05+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+</urlset>
